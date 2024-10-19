@@ -1,0 +1,42 @@
+project:
+  type: book
+
+book:
+  title: "Libro Análisis de Datos con SPSS"
+  author: "Angel Miguel Alvarez Calicho"
+  date: "12-23-2024"
+  chapters:
+    - index.qmd
+    - introduccion-a-spss.qmd
+    - analisis-estadistico.qmd
+    - estadistica-correlacional.qmd
+    - mastering-graphics.qmd
+    - estadistica-univariante.qmd
+    - estadistica-no-parametrica.qmd
+    - analisis-multivariante.qmd
+    - estadistica-bayesiana.qmd
+    - analisis-series-tiempo.qmd
+    - redes-neuronales.qmd
+    - metodos-clasificacion.qmd
+    - diseno-validacion-encuestas.qmd
+    - programacion.qmd
+    - bibliografia.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    toc: true
+    toc-depth: 5
+    theme:
+      light:
+        - flatly
+        - bigbook.scss
+        # - custom.scss
+      dark:
+        - darkly
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

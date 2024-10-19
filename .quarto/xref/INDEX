@@ -1,0 +1,56 @@
+{
+  "index.qmd": {
+    "index.html": "6f88825f"
+  },
+  "intro.qmd": {
+    "intro.html": "6428952c"
+  },
+  "summary.qmd": {
+    "summary.html": "a05ef347"
+  },
+  "references.qmd": {
+    "references.html": "805115f8"
+  },
+  "introduccion-a-spss.qmd": {
+    "introduccion-a-spss.html": "da1d35fd"
+  },
+  "analisis-estadistico.qmd": {
+    "analisis-estadistico.html": "95a2e0c7"
+  },
+  "estadistica-correlacional.qmd": {
+    "estadistica-correlacional.html": "8b03a4cc"
+  },
+  "mastering-graphics.qmd": {
+    "mastering-graphics.html": "494fea41"
+  },
+  "estadistica-univariante.qmd": {
+    "estadistica-univariante.html": "261fb8d2"
+  },
+  "estadistica-no-parametrica.qmd": {
+    "estadistica-no-parametrica.html": "43d46d3d"
+  },
+  "analisis-multivariante.qmd": {
+    "analisis-multivariante.html": "a2e89cef"
+  },
+  "estadistica-bayesiana.qmd": {
+    "estadistica-bayesiana.html": "9474c933"
+  },
+  "programacion.qmd": {
+    "programacion.html": "bbb55f71"
+  },
+  "diseno-validacion-encuestas.qmd": {
+    "diseno-validacion-encuestas.html": "f2343339"
+  },
+  "bibliografia.qmd": {
+    "bibliografia.html": "0daab45c"
+  },
+  "analisis-series-tiempo.qmd": {
+    "analisis-series-tiempo.html": "8a19886f"
+  },
+  "redes-neuronales.qmd": {
+    "redes-neuronales.html": "9570fb66"
+  },
+  "metodos-clasificacion.qmd": {
+    "metodos-clasificacion.html": "8b4c34ac"
+  }
+}

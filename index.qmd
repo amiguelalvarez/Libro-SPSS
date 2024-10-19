@@ -1,0 +1,5 @@
+# Bienvenida {.unnumbered}
+
+Bienvenido este es un proyecto donde veremos las diferentes aplicaciones de SPSS en el análisis estadístico, desde mi experiencia y estudios realizados.
+
+Mi nombre es Angel Miguel Alvarez Calicho
