@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.57">
@@ -7,9 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Angel Miguel Alvarez Calicho">
-<meta name="dcterms.date" content="2024-12-23">
 
-<title>Libro Análisis de Datos con SPSS</title>
+<title>Análisis de Datos con SPSS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -58,17 +57,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
 
@@ -81,13 +80,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Bienvenida</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -99,15 +98,15 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Libro Análisis de Datos con SPSS</a> 
+      <a href="./">Análisis de Datos con SPSS</a> 
         <div class="sidebar-tools-main">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
 </div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Buscar"></div>
         </div>
         </div>
     <div class="sidebar-menu-container"> 
@@ -209,10 +208,21 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+    <h2 id="toc-title">Tabla de contenidos</h2>
    
   <ul>
-  <li><a href="#bienvenida" id="toc-bienvenida" class="nav-link active" data-scroll-target="#bienvenida">Bienvenida</a></li>
+  <li><a href="#bienvenida" id="toc-bienvenida" class="nav-link active" data-scroll-target="#bienvenida">Bienvenida</a>
+  <ul>
+  <li><a href="#por-qué-este-libro" id="toc-por-qué-este-libro" class="nav-link" data-scroll-target="#por-qué-este-libro">¿Por qué este libro?</a></li>
+  <li><a href="#a-quién-va-dirigido" id="toc-a-quién-va-dirigido" class="nav-link" data-scroll-target="#a-quién-va-dirigido">¿A quién va dirigido?</a></li>
+  <li><a href="#agradecimientos" id="toc-agradecimientos" class="nav-link" data-scroll-target="#agradecimientos">Agradecimientos</a></li>
+  <li><a href="#el-software-spss" id="toc-el-software-spss" class="nav-link" data-scroll-target="#el-software-spss">El Software SPSS</a>
+  <ul>
+  <li><a href="#por-qué-spss" id="toc-por-qué-spss" class="nav-link" data-scroll-target="#por-qué-spss">¿Por qué SPSS?</a></li>
+  <li><a href="#requisitos-del-sistema" id="toc-requisitos-del-sistema" class="nav-link" data-scroll-target="#requisitos-del-sistema">Requisitos del sistema</a></li>
+  <li><a href="#beneficios-de-spss" id="toc-beneficios-de-spss" class="nav-link" data-scroll-target="#beneficios-de-spss">Beneficios de SPSS</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -221,7 +231,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Libro Análisis de Datos con SPSS</h1>
+<h1 class="title">Análisis de Datos con SPSS</h1>
 </div>
 
 
@@ -229,16 +239,16 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     <div>
-    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Autor/a</div>
     <div class="quarto-title-meta-contents">
              <p>Angel Miguel Alvarez Calicho </p>
           </div>
   </div>
     
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 23, 2024</p>
+      <p class="date">23 de diciembre de 2024</p>
     </div>
   </div>
   
@@ -252,10 +262,66 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="bienvenida" class="level1 unnumbered">
 <h1 class="unnumbered">Bienvenida</h1>
-<p>Bienvenido este es un proyecto donde veremos las diferentes aplicaciones de SPSS en el análisis estadístico, desde mi experiencia y estudios realizados.</p>
-<p>Mi nombre es Angel Miguel Alvarez Calicho soy graduado en la Licenciatura en Ingeniería Comercial, con una Maestría en Estadística Aplicada al Gestión Empresarial.</p>
+<div class="columns">
+<div class="column" style="width:6;">
+<p>¡Bienvenido! Este proyecto se dedica a explorar las diversas aplicaciones de SPSS en el análisis estadístico, a partir de mi experiencia y estudios en esta área. A lo largo de este libro, compartiremos conocimientos y técnicas que te permitirán utilizar SPSS de manera efectiva.</p>
+<p>Mi nombre es Angel Miguel Alvarez Calicho, soy graduado en la Licenciatura en Ingeniería Comercial y tengo una Maestría en Estadística Aplicada a la Gestión Empresarial. Mi pasión por la estadística y el análisis de datos me ha llevado a impartir clases sobre SPSS, lo que me ha permitido identificar las necesidades y desafíos que enfrentan los estudiantes y profesionales al utilizar este software.</p>
+</div><div class="column" style="width:6;">
+<p><img src="images/Portada Libro de SPSS.webp" title="Portada Libro de SPSS" class="img-fluid" style="box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); margin: 20px 20px;;width:100.0%"></p>
+</div>
+</div>
+<div class="column" style="width:12;">
+<div class="hidden-xs">
+
+</div>
+</div>
+<section id="por-qué-este-libro" class="level2">
+<h2 class="anchored" data-anchor-id="por-qué-este-libro">¿Por qué este libro?</h2>
+<p>A menudo he observado que muchos de mis alumnos y colegas tienen la necesidad de contar con un manual práctico y accesible de SPSS. Aunque existen numerosos recursos, muchos de ellos están desactualizados o presentan versiones de interfaz muy antiguas, como la versión 12 o anteriores. Además, los libros de pago, que son una opción válida, no son fácilmente accesibles en Bolivia. Por esta razón, he decidido crear este manual, con el objetivo de proporcionar una guía completa y actualizada para aprender y recordar el uso de SPSS.</p>
+</section>
+<section id="a-quién-va-dirigido" class="level2">
+<h2 class="anchored" data-anchor-id="a-quién-va-dirigido">¿A quién va dirigido?</h2>
+<p>Este libro está destinado a cualquier persona que desee aprender a utilizar SPSS, ya sea desde un nivel básico hasta uno avanzado. Si eres estudiante, profesional o simplemente tienes interés en el análisis de datos, aquí encontrarás un recurso útil que te guiará paso a paso en el uso de esta herramienta.</p>
+</section>
+<section id="agradecimientos" class="level2">
+<h2 class="anchored" data-anchor-id="agradecimientos">Agradecimientos</h2>
+<p>Quiero expresar mi sincero agradecimiento a mis docentes, especialmente a Sergio Rivero, quien me enseñó a apreciar el valor de SPSS en la investigación de mercados. También agradezco al Licenciado Mauricio Alarcón por brindarme la oportunidad de dictar talleres de SPSS, lo que me permitió profundizar en el uso de esta herramienta y compartir mis conocimientos con otros.</p>
+</section>
+<section id="el-software-spss" class="level2">
+<h2 class="anchored" data-anchor-id="el-software-spss">El Software SPSS</h2>
+<p>SPSS, que significa Statistical Package for the Social Sciences, es una herramienta de análisis estadístico ampliamente utilizada en diversas disciplinas. Actualmente, la versión más reciente es la 30, lanzada el 31 de octubre de 2024. Este software es conocido por su interfaz intuitiva y su capacidad para manejar grandes volúmenes de datos de manera eficiente.</p>
+<section id="por-qué-spss" class="level3">
+<h3 class="anchored" data-anchor-id="por-qué-spss">¿Por qué SPSS?</h3>
+<p>SPSS ofrece una serie de beneficios que lo convierten en una opción preferida para analistas y investigadores:</p>
+<ul>
+<li><p><strong>Interfaz intuitiva</strong>: La interfaz permite preparar y analizar datos fácilmente, utilizando funcionalidades de arrastrar y soltar que eliminan la necesidad de escribir código.</p></li>
+<li><p><strong>Gestión de datos simplificada</strong>: Integra la gestión de datos con el análisis estadístico, facilitando la importación, limpieza y manipulación de datos.</p></li>
+<li><p><strong>Análisis integral</strong>: Realiza estadísticas descriptivas, análisis de regresión y visualiza patrones en los datos, todo dentro de una solución integral.</p></li>
+<li><p><strong>Analítica predictiva avanzada</strong>: Utiliza capacidades de modelado predictivo para pronosticar tendencias y resultados, mejorando la planificación y la investigación.</p></li>
+<li><p><strong>Salida personalizable</strong>: Adapta los resultados y reportes a tus necesidades específicas con cuadros, gráficos y tablas personalizables.</p></li>
+<li><p><strong>Integración de código abierto</strong>: Amplía la funcionalidad de SPSS utilizando R y Python a través de extensiones predefinidas o scripts personalizados.</p></li>
+</ul>
+</section>
+<section id="requisitos-del-sistema" class="level3">
+<h3 class="anchored" data-anchor-id="requisitos-del-sistema">Requisitos del sistema</h3>
+<p>Para instalar SPSS, asegúrate de que tu sistema cumpla con los siguientes requisitos:</p>
+<ul>
+<li><p><strong>Espacio en disco</strong>: Mínimo de 2 GB de espacio libre en disco en cada servidor donde esté instalado SPSS.</p></li>
+<li><p><strong>Memoria</strong>: Mínimo de 4 GB de RAM.</p></li>
+<li><p><strong>Procesador</strong>: Procesadores de doble núcleo x64 (AMD 64 y EM64T) para Linux de 64 bits; procesador Power 8.</p></li>
+</ul>
+</section>
+<section id="beneficios-de-spss" class="level3">
+<h3 class="anchored" data-anchor-id="beneficios-de-spss">Beneficios de SPSS</h3>
+<ul>
+<li><p><strong>Interfaz de usuario intuitiva</strong>: Facilita la preparación y análisis de datos sin necesidad de programar.</p></li>
+<li><p><strong>Opciones de licencia flexibles</strong>: Permite elegir entre diferentes opciones de compra, incluyendo licencias tradicionales y de suscripción.</p></li>
+<li><p><strong>Aumente la productividad de la ciencia de datos</strong>: Proporciona herramientas visuales accesibles tanto para programadores como para analistas no programadores.</p></li>
+</ul>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -446,12 +512,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiado");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiado");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",

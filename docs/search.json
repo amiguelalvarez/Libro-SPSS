@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Análisis de Datos con SPSS",
+    "section": "",
+    "text": "Bienvenida",
+    "crumbs": [
+      "Bienvenida"
+    ]
+  },
+  {
+    "objectID": "index.html#por-qué-este-libro",
+    "href": "index.html#por-qué-este-libro",
+    "title": "Análisis de Datos con SPSS",
+    "section": "¿Por qué este libro?",
+    "text": "¿Por qué este libro?\nA menudo he observado que muchos de mis alumnos y colegas tienen la necesidad de contar con un manual práctico y accesible de SPSS. Aunque existen numerosos recursos, muchos de ellos están desactualizados o presentan versiones de interfaz muy antiguas, como la versión 12 o anteriores. Además, los libros de pago, que son una opción válida, no son fácilmente accesibles en Bolivia. Por esta razón, he decidido crear este manual, con el objetivo de proporcionar una guía completa y actualizada para aprender y recordar el uso de SPSS.",
+    "crumbs": [
+      "Bienvenida"
+    ]
+  },
+  {
+    "objectID": "index.html#a-quién-va-dirigido",
+    "href": "index.html#a-quién-va-dirigido",
+    "title": "Análisis de Datos con SPSS",
+    "section": "¿A quién va dirigido?",
+    "text": "¿A quién va dirigido?\nEste libro está destinado a cualquier persona que desee aprender a utilizar SPSS, ya sea desde un nivel básico hasta uno avanzado. Si eres estudiante, profesional o simplemente tienes interés en el análisis de datos, aquí encontrarás un recurso útil que te guiará paso a paso en el uso de esta herramienta.",
+    "crumbs": [
+      "Bienvenida"
+    ]
+  },
+  {
+    "objectID": "index.html#agradecimientos",
+    "href": "index.html#agradecimientos",
+    "title": "Análisis de Datos con SPSS",
+    "section": "Agradecimientos",
+    "text": "Agradecimientos\nQuiero expresar mi sincero agradecimiento a mis docentes, especialmente a Sergio Rivero, quien me enseñó a apreciar el valor de SPSS en la investigación de mercados. También agradezco al Licenciado Mauricio Alarcón por brindarme la oportunidad de dictar talleres de SPSS, lo que me permitió profundizar en el uso de esta herramienta y compartir mis conocimientos con otros.",
+    "crumbs": [
+      "Bienvenida"
+    ]
+  },
+  {
+    "objectID": "index.html#el-software-spss",
+    "href": "index.html#el-software-spss",
+    "title": "Análisis de Datos con SPSS",
+    "section": "El Software SPSS",
+    "text": "El Software SPSS\nSPSS, que significa Statistical Package for the Social Sciences, es una herramienta de análisis estadístico ampliamente utilizada en diversas disciplinas. Actualmente, la versión más reciente es la 30, lanzada el 31 de octubre de 2024. Este software es conocido por su interfaz intuitiva y su capacidad para manejar grandes volúmenes de datos de manera eficiente.\n\n¿Por qué SPSS?\nSPSS ofrece una serie de beneficios que lo convierten en una opción preferida para analistas y investigadores:\n\nInterfaz intuitiva: La interfaz permite preparar y analizar datos fácilmente, utilizando funcionalidades de arrastrar y soltar que eliminan la necesidad de escribir código.\nGestión de datos simplificada: Integra la gestión de datos con el análisis estadístico, facilitando la importación, limpieza y manipulación de datos.\nAnálisis integral: Realiza estadísticas descriptivas, análisis de regresión y visualiza patrones en los datos, todo dentro de una solución integral.\nAnalítica predictiva avanzada: Utiliza capacidades de modelado predictivo para pronosticar tendencias y resultados, mejorando la planificación y la investigación.\nSalida personalizable: Adapta los resultados y reportes a tus necesidades específicas con cuadros, gráficos y tablas personalizables.\nIntegración de código abierto: Amplía la funcionalidad de SPSS utilizando R y Python a través de extensiones predefinidas o scripts personalizados.\n\n\n\nRequisitos del sistema\nPara instalar SPSS, asegúrate de que tu sistema cumpla con los siguientes requisitos:\n\nEspacio en disco: Mínimo de 2 GB de espacio libre en disco en cada servidor donde esté instalado SPSS.\nMemoria: Mínimo de 4 GB de RAM.\nProcesador: Procesadores de doble núcleo x64 (AMD 64 y EM64T) para Linux de 64 bits; procesador Power 8.\n\n\n\nBeneficios de SPSS\n\nInterfaz de usuario intuitiva: Facilita la preparación y análisis de datos sin necesidad de programar.\nOpciones de licencia flexibles: Permite elegir entre diferentes opciones de compra, incluyendo licencias tradicionales y de suscripción.\nAumente la productividad de la ciencia de datos: Proporciona herramientas visuales accesibles tanto para programadores como para analistas no programadores.",
+    "crumbs": [
+      "Bienvenida"
+    ]
+  }
+]
