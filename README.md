@@ -18,10 +18,6 @@ El libro incluye capítulos sobre:
 
 -   Análisis multivariante
 
--   Métodos de clasificación y más.
+-   Métodos de clasificación
 
-## Agradecimientos
-
-Agradezco a mis docentes y mentores que han inspirado mi aprendizaje y enseñanza en el uso de SPSS.
-
-¡Únete a este viaje y mejora tus habilidades en el análisis de datos!
+-   Redes neuronales

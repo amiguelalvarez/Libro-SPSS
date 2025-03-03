@@ -1,1 +1,1 @@
-# Análisis de Series de Tiempo con SPSS
+# Análisis de Series de Tiempo

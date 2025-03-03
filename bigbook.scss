@@ -20,3 +20,7 @@ div.sidebar-item-container .active {
 img.quarto-cover-image {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
+/* Ocultar números en los títulos de los capítulos */
+.chapter-number {
+  display: none; /* Oculta el número del capítulo */
+}

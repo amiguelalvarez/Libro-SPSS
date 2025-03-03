@@ -1,0 +1,28 @@
+# Instala el paquete echarts4r si no lo tienes
+#  if (!require(echarts4r)) install.packages("echarts4r")
+
+library(echarts4r)
+library(dplyr)
+library(tidyr)
+# Datos
+data <- data.frame(
+  Declaración = c("Lugar de Residencia", "Lugar/Departamento de Titulación Académica", "Estudios Realizados en el Exterior"),
+  Sí = c(60.00, 32.73, 47.27),
+  No = c(30.91, 67.27, 36.36),
+  Depende = c(9.09, 0.00, 16.36)
+)
+
+# Transformar los datos para heatmap
+heatmap_data <- data %>%
+  tidyr::pivot_longer(cols = -Declaración, names_to = "Respuesta", values_to = "Porcentaje") %>%
+  dplyr::mutate(Declaración = factor(Declaración, levels = unique(Declaración)))
+
+# Crear el gráfico
+heatmap <- heatmap_data %>%
+  e_charts(Declaración) %>%
+  e_heatmap(Respuesta, Porcentaje) %>%
+  e_visual_map(Porcentaje) %>%
+  e_tooltip()
+
+# Guardar el gráfico como archivo HTML
+htmlwidgets::saveWidget(heatmap, "heatmap_interactivo.html", selfcontained = TRUE)
